@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.input-box {
+  width: 400px;
+  padding: 5px;
+  margin: 5px;
+}
+.results-container {
+  max-width: 400px;
+  max-height: 500px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+.search-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.results-item {
+  display: flex;
+  width: 400px;
+  margin: 3px;
+}
+.results-item:hover,
+.results-item:focus {
+  background-color: aqua;
+}
